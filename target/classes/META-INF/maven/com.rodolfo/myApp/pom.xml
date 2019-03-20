@@ -18,6 +18,13 @@
 
   <dependencies>
  
+ <!-- https://mvnrepository.com/artifact/com.atlassian.mail/atlassian-mail -->
+  <dependency>
+    <groupId>com.atlassian.mail</groupId>
+    <artifactId>atlassian-mail</artifactId>
+    <version>5.0.0</version>
+  </dependency>
+  
  <!-- HIBERNATE CORE --> 
   <dependency>
  	 <groupId>org.hibernate</groupId>
@@ -32,4 +39,17 @@
       <scope>test</scope>
   </dependency>
   </dependencies>
+
+	<repositories>
+	
+	  <repository>
+		<id>atlassian</id>
+		<name>the atlassian repo</name>
+		<url>https://packages.atlassian.com/maven-public/</url>
+	  </repository>
+	
+	</repositories>
+
+
+
 </project>
